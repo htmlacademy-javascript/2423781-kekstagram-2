@@ -76,4 +76,5 @@ const getPhotoDescriptions = () => Array.from({length: PHOTO_COUNT}, (_, index) 
 
 // Вызов функции для проверки
 const photoArray = getPhotoDescriptions();
+// eslint-disable-next-line no-console
 console.log(photoArray);
